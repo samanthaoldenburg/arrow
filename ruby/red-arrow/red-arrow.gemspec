@@ -46,7 +46,7 @@ Gem::Specification.new do |spec|
   spec.test_files += Dir.glob("test/**/*")
   spec.extensions = ["ext/arrow/extconf.rb"]
 
-  spec.add_runtime_dependency("bigdecimal", ">= 3.1.0")
+  spec.add_runtime_dependency("bigdecimal", "~> 1.4.0")
   spec.add_runtime_dependency("csv")
   spec.add_runtime_dependency("extpp", ">= 0.1.1")
   spec.add_runtime_dependency("gio2", ">= 3.5.0")
